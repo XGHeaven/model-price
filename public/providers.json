@@ -9,35 +9,35 @@
     {
       "id": "anthropic",
       "name": "Anthropic",
-      "pricingUrl": "https://www.anthropic.com/pricing",
+      "pricingUrl": "https://claude.com/pricing#api",
       "region": "global",
       "description": "Claude 系列模型"
     },
     {
       "id": "google",
       "name": "Google",
-      "pricingUrl": "https://ai.google.dev/pricing",
+      "pricingUrl": "https://ai.google.dev/gemini-api/docs/pricing",
       "region": "global",
       "description": "Gemini 模型"
     },
     {
       "id": "meta",
       "name": "Meta",
-      "pricingUrl": "https://ai.meta.com/llama/",
+      "pricingUrl": "https://www.llama.com/",
       "region": "global",
       "description": "Llama 2, Llama 3 系列模型（开源）"
     },
     {
       "id": "alibaba",
       "name": "阿里云",
-      "pricingUrl": "https://help.aliyun.com/zh/model-studio/getting-started/models",
+      "pricingUrl": "https://help.aliyun.com/zh/model-studio/models",
       "region": "china",
       "description": "通义千问 Qwen 系列模型"
     },
     {
       "id": "deepseek",
       "name": "DeepSeek",
-      "pricingUrl": "https://platform.deepseek.com/api-docs/zh-cn/pricing",
+      "pricingUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
       "region": "china",
       "description": "DeepSeek V3, DeepSeek Coder 等模型"
     },
@@ -51,7 +51,7 @@
     {
       "id": "baidu",
       "name": "百度",
-      "pricingUrl": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlrk4akp7",
+      "pricingUrl": "https://cloud.baidu.com/doc/qianfan/index.html",
       "region": "china",
       "description": "文心一言 ERNIE 系列模型"
     },
@@ -65,28 +65,28 @@
     {
       "id": "moonshot",
       "name": "月之暗面",
-      "pricingUrl": "https://platform.moonshot.cn/docs/pricing",
+      "pricingUrl": "https://platform.moonshot.cn/docs/price/chat",
       "region": "china",
       "description": "Moonshot (Kimi) 系列模型"
     },
     {
       "id": "lingyiwanwu",
       "name": "零一万物",
-      "pricingUrl": "https://platform.lingyiwanwu.com/docs/pricing",
+      "pricingUrl": "https://platform.lingyiwanwu.com/docs#%E6%A8%A1%E5%9E%8B%E4%B8%8E%E8%AE%A1%E8%B4%B9",
       "region": "china",
       "description": "Yi 系列模型"
     },
     {
       "id": "minimax",
       "name": "MiniMax",
-      "pricingUrl": "https://platform.minimaxi.com/docs/pricing/pay-as-you-go",
+      "pricingUrl": "https://platform.minimaxi.com/docs/guides/pricing-paygo",
       "region": "china",
       "description": "MiniMax 系列模型"
     },
     {
       "id": "doubao",
       "name": "字节跳动",
-      "pricingUrl": "https://www.volcengine.com/docs/82379/1298460",
+      "pricingUrl": "https://www.volcengine.com/docs/82379/1544106?lang=zh",
       "region": "china",
       "description": "豆包大模型"
     },
@@ -100,7 +100,7 @@
     {
       "id": "mistral",
       "name": "Mistral AI",
-      "pricingUrl": "https://mistral.ai/technology/#pricing",
+      "pricingUrl": "https://mistral.ai/products/studio#pricing",
       "region": "global",
       "description": "Mistral 系列模型"
     },

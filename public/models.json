@@ -1,11 +1,29 @@
 {
-  "updatedAt": 1739446800000,
+  "updatedAt": 1773510672000,
   "models": [
+    {
+      "id": "gpt-5-4",
+      "name": "GPT-5.4",
+      "provider": "openai",
+      "inputPrice": 2.5,
+      "cachedInputPrice": 0.25,
+      "outputPrice": 15,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-5-4-pro",
+      "name": "GPT-5.4 Pro",
+      "provider": "openai",
+      "inputPrice": 30,
+      "outputPrice": 180,
+      "billingCurrency": "USD"
+    },
     {
       "id": "gpt-5-2",
       "name": "GPT-5.2",
       "provider": "openai",
       "inputPrice": 1.75,
+      "cachedInputPrice": 0.175,
       "outputPrice": 14,
       "billingCurrency": "USD"
     },
@@ -14,6 +32,7 @@
       "name": "GPT-5.1",
       "provider": "openai",
       "inputPrice": 1.25,
+      "cachedInputPrice": 0.125,
       "outputPrice": 10,
       "billingCurrency": "USD"
     },
@@ -22,6 +41,7 @@
       "name": "GPT-5",
       "provider": "openai",
       "inputPrice": 1.25,
+      "cachedInputPrice": 0.125,
       "outputPrice": 10,
       "billingCurrency": "USD"
     },
@@ -30,7 +50,33 @@
       "name": "GPT-5 Mini",
       "provider": "openai",
       "inputPrice": 0.25,
+      "cachedInputPrice": 0.025,
       "outputPrice": 2,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "provider": "openai",
+      "inputPrice": 0.05,
+      "cachedInputPrice": 0.005,
+      "outputPrice": 0.4,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-5-2-pro",
+      "name": "GPT-5.2 Pro",
+      "provider": "openai",
+      "inputPrice": 21,
+      "outputPrice": 168,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-5-pro",
+      "name": "GPT-5 Pro",
+      "provider": "openai",
+      "inputPrice": 15,
+      "outputPrice": 120,
       "billingCurrency": "USD"
     },
     {
@@ -38,7 +84,26 @@
       "name": "GPT-4.1",
       "provider": "openai",
       "inputPrice": 2,
+      "cachedInputPrice": 0.5,
       "outputPrice": 8,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-4-1-mini",
+      "name": "GPT-4.1 Mini",
+      "provider": "openai",
+      "inputPrice": 0.4,
+      "cachedInputPrice": 0.1,
+      "outputPrice": 1.6,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gpt-4-1-nano",
+      "name": "GPT-4.1 Nano",
+      "provider": "openai",
+      "inputPrice": 0.1,
+      "cachedInputPrice": 0.025,
+      "outputPrice": 0.4,
       "billingCurrency": "USD"
     },
     {
@@ -46,6 +111,7 @@
       "name": "GPT-4o",
       "provider": "openai",
       "inputPrice": 2.5,
+      "cachedInputPrice": 1.25,
       "outputPrice": 10,
       "billingCurrency": "USD"
     },
@@ -54,6 +120,7 @@
       "name": "GPT-4o Mini",
       "provider": "openai",
       "inputPrice": 0.15,
+      "cachedInputPrice": 0.075,
       "outputPrice": 0.6,
       "billingCurrency": "USD"
     },
@@ -62,7 +129,16 @@
       "name": "o1",
       "provider": "openai",
       "inputPrice": 15,
+      "cachedInputPrice": 7.5,
       "outputPrice": 60,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "o1-pro",
+      "name": "o1 Pro",
+      "provider": "openai",
+      "inputPrice": 150,
+      "outputPrice": 600,
       "billingCurrency": "USD"
     },
     {
@@ -70,7 +146,16 @@
       "name": "o3",
       "provider": "openai",
       "inputPrice": 2,
+      "cachedInputPrice": 0.5,
       "outputPrice": 8,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "o3-pro",
+      "name": "o3 Pro",
+      "provider": "openai",
+      "inputPrice": 20,
+      "outputPrice": 80,
       "billingCurrency": "USD"
     },
     {
@@ -78,7 +163,98 @@
       "name": "o3 Mini",
       "provider": "openai",
       "inputPrice": 1.1,
+      "cachedInputPrice": 0.55,
       "outputPrice": 4.4,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "o4-mini",
+      "name": "o4 Mini",
+      "provider": "openai",
+      "inputPrice": 1.1,
+      "cachedInputPrice": 0.275,
+      "outputPrice": 4.4,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "provider": "anthropic",
+      "inputPrice": 5,
+      "outputPrice": 25,
+      "cachedInputPrice": 0.5,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5",
+      "provider": "anthropic",
+      "inputPrice": 5,
+      "outputPrice": 25,
+      "cachedInputPrice": 0.5,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-opus-4-1",
+      "name": "Claude Opus 4.1",
+      "provider": "anthropic",
+      "inputPrice": 15,
+      "outputPrice": 75,
+      "cachedInputPrice": 1.5,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-opus-4",
+      "name": "Claude Opus 4",
+      "provider": "anthropic",
+      "inputPrice": 15,
+      "outputPrice": 75,
+      "cachedInputPrice": 1.5,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "anthropic",
+      "inputPrice": 3,
+      "outputPrice": 15,
+      "cachedInputPrice": 0.3,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "provider": "anthropic",
+      "inputPrice": 3,
+      "outputPrice": 15,
+      "cachedInputPrice": 0.3,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-sonnet-4",
+      "name": "Claude Sonnet 4",
+      "provider": "anthropic",
+      "inputPrice": 3,
+      "outputPrice": 15,
+      "cachedInputPrice": 0.3,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "provider": "anthropic",
+      "inputPrice": 1,
+      "outputPrice": 5,
+      "cachedInputPrice": 0.1,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "claude-haiku-3-5",
+      "name": "Claude Haiku 3.5",
+      "provider": "anthropic",
+      "inputPrice": 0.8,
+      "outputPrice": 4,
+      "cachedInputPrice": 0.08,
       "billingCurrency": "USD"
     },
     {
@@ -87,8 +263,7 @@
       "provider": "anthropic",
       "inputPrice": 15,
       "outputPrice": 75,
-      "cachedInputPrice": 7.5,
-      "cachedOutputPrice": 37.5,
+      "cachedInputPrice": 1.5,
       "billingCurrency": "USD"
     },
     {
@@ -97,13 +272,21 @@
       "provider": "anthropic",
       "inputPrice": 3,
       "outputPrice": 15,
-      "cachedInputPrice": 1.5,
-      "cachedOutputPrice": 7.5,
+      "cachedInputPrice": 0.3,
       "billingCurrency": "USD"
     },
     {
-      "id": "gemini-3-pro",
-      "name": "Gemini 3 Pro",
+      "id": "claude-3-haiku",
+      "name": "Claude 3 Haiku",
+      "provider": "anthropic",
+      "inputPrice": 0.25,
+      "outputPrice": 1.25,
+      "cachedInputPrice": 0.03,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-3-1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
       "provider": "google",
       "billingCurrency": "USD",
       "pricingTiers": [
@@ -111,17 +294,42 @@
           "label": "输入 <= 200K tokens",
           "inputPrice": 2,
           "outputPrice": 12,
-          "cachedInputPrice": 0.2,
-          "cachedOutputPrice": 4.5
+          "cachedInputPrice": 0.2
         },
         {
           "label": "输入 > 200K tokens",
           "inputPrice": 4,
           "outputPrice": 18,
-          "cachedInputPrice": 0.4,
-          "cachedOutputPrice": 4.5
+          "cachedInputPrice": 0.4
         }
       ]
+    },
+    {
+      "id": "gemini-3-1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash-Lite Preview",
+      "provider": "google",
+      "inputPrice": 0.25,
+      "outputPrice": 1.5,
+      "cachedInputPrice": 0.025,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-2-5-flash-lite-preview-09-2025",
+      "name": "Gemini 2.5 Flash-Lite Preview (09-2025)",
+      "provider": "google",
+      "inputPrice": 0.1,
+      "outputPrice": 0.4,
+      "cachedInputPrice": 0.01,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "provider": "google",
+      "inputPrice": 0.5,
+      "outputPrice": 3,
+      "cachedInputPrice": 0.05,
+      "billingCurrency": "USD"
     },
     {
       "id": "gemini-2-5-pro",
@@ -133,15 +341,13 @@
           "label": "输入 <= 200K tokens",
           "inputPrice": 1.25,
           "outputPrice": 10,
-          "cachedInputPrice": 0.125,
-          "cachedOutputPrice": 4.5
+          "cachedInputPrice": 0.125
         },
         {
           "label": "输入 > 200K tokens",
           "inputPrice": 2.5,
           "outputPrice": 15,
-          "cachedInputPrice": 0.25,
-          "cachedOutputPrice": 4.5
+          "cachedInputPrice": 0.25
         }
       ]
     },
@@ -152,7 +358,32 @@
       "inputPrice": 0.3,
       "outputPrice": 2.5,
       "cachedInputPrice": 0.03,
-      "cachedOutputPrice": 1,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "provider": "google",
+      "inputPrice": 0.1,
+      "outputPrice": 0.4,
+      "cachedInputPrice": 0.01,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-2-0-flash",
+      "name": "Gemini 2.0 Flash",
+      "provider": "google",
+      "inputPrice": 0.1,
+      "outputPrice": 0.4,
+      "cachedInputPrice": 0.025,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "gemini-2-0-flash-lite",
+      "name": "Gemini 2.0 Flash-Lite",
+      "provider": "google",
+      "inputPrice": 0.075,
+      "outputPrice": 0.3,
       "billingCurrency": "USD"
     },
     {
@@ -162,7 +393,6 @@
       "inputPrice": 1,
       "outputPrice": 2,
       "cachedInputPrice": 0.5,
-      "cachedOutputPrice": 1,
       "billingCurrency": "USD"
     },
     {
@@ -192,62 +422,42 @@
       "id": "qwen-plus",
       "name": "Qwen Plus",
       "provider": "alibaba",
-      "billingCurrency": "CNY",
-      "pricingTiers": [
-        {
-          "label": "0-128K tokens",
-          "inputPrice": 0.8,
-          "outputPrice": 2
-        },
-        {
-          "label": "128K-256K tokens",
-          "inputPrice": 2.4,
-          "outputPrice": 20
-        },
-        {
-          "label": "256K-1M tokens",
-          "inputPrice": 4.8,
-          "outputPrice": 48
-        }
-      ]
+      "inputPrice": 0.8,
+      "outputPrice": 2,
+      "billingCurrency": "CNY"
     },
     {
       "id": "qwen-flash",
       "name": "Qwen Flash",
       "provider": "alibaba",
-      "billingCurrency": "CNY",
-      "pricingTiers": [
-        {
-          "label": "0-128K tokens",
-          "inputPrice": 0.15,
-          "outputPrice": 1.5
-        },
-        {
-          "label": "128K-256K tokens",
-          "inputPrice": 0.6,
-          "outputPrice": 6
-        },
-        {
-          "label": "256K-1M tokens",
-          "inputPrice": 1.2,
-          "outputPrice": 12
-        }
-      ]
+      "inputPrice": 0.15,
+      "outputPrice": 1.5,
+      "billingCurrency": "CNY"
     },
     {
-      "id": "deepseek-v3-2",
+      "id": "qwen-coder",
+      "name": "Qwen Coder",
+      "provider": "alibaba",
+      "inputPrice": 1,
+      "outputPrice": 4,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "deepseek-chat",
       "name": "DeepSeek V3.2",
       "provider": "deepseek",
       "inputPrice": 2,
       "outputPrice": 3,
+      "cachedInputPrice": 0.2,
       "billingCurrency": "CNY"
     },
     {
-      "id": "deepseek-r1",
-      "name": "DeepSeek R1",
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek V3.2 (Thinking)",
       "provider": "deepseek",
-      "inputPrice": 4,
-      "outputPrice": 16,
+      "inputPrice": 2,
+      "outputPrice": 3,
+      "cachedInputPrice": 0.2,
       "billingCurrency": "CNY"
     },
     {
@@ -260,15 +470,13 @@
           "label": "输入长度 [0, 32)",
           "inputPrice": 4,
           "outputPrice": 18,
-          "cachedInputPrice": 1,
-          "cachedOutputPrice": 1
+          "cachedInputPrice": 1
         },
         {
           "label": "输入长度 [32+)",
           "inputPrice": 6,
           "outputPrice": 22,
-          "cachedInputPrice": 1.5,
-          "cachedOutputPrice": 1.5
+          "cachedInputPrice": 1.5
         }
       ]
     },
@@ -282,15 +490,13 @@
           "label": "输入长度 [0, 32)",
           "inputPrice": 6,
           "outputPrice": 28,
-          "cachedInputPrice": 1.5,
-          "cachedOutputPrice": 1.5
+          "cachedInputPrice": 1.5
         },
         {
           "label": "输入长度 [32+)",
           "inputPrice": 8,
           "outputPrice": 32,
-          "cachedInputPrice": 2,
-          "cachedOutputPrice": 2
+          "cachedInputPrice": 2
         }
       ]
     },
@@ -405,9 +611,25 @@
       "billingCurrency": "CNY"
     },
     {
-      "id": "mistral-large-3",
-      "name": "Mistral Large 3",
-      "provider": "mistral",
+      "id": "command",
+      "name": "Command",
+      "provider": "cohere",
+      "inputPrice": 1,
+      "outputPrice": 2,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "command-light",
+      "name": "Command Light",
+      "provider": "cohere",
+      "inputPrice": 0.3,
+      "outputPrice": 0.6,
+      "billingCurrency": "USD"
+    },
+    {
+      "id": "command-r",
+      "name": "Command R",
+      "provider": "cohere",
       "inputPrice": 0.5,
       "outputPrice": 1.5,
       "billingCurrency": "USD"
@@ -421,17 +643,17 @@
       "billingCurrency": "USD"
     },
     {
-      "id": "command-r",
-      "name": "Command R",
+      "id": "aya-expanse",
+      "name": "Aya Expanse",
       "provider": "cohere",
       "inputPrice": 0.5,
       "outputPrice": 1.5,
       "billingCurrency": "USD"
     },
     {
-      "id": "aya-expanse",
-      "name": "Aya Expanse",
-      "provider": "cohere",
+      "id": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "provider": "mistral",
       "inputPrice": 0.5,
       "outputPrice": 1.5,
       "billingCurrency": "USD"
@@ -504,6 +726,176 @@
           "outputPrice": 6
         }
       ]
+    },
+    {
+      "id": "doubao-seed-2-0-pro",
+      "name": "Doubao Seed 2.0 Pro",
+      "provider": "doubao",
+      "billingCurrency": "CNY",
+      "pricingTiers": [
+        {
+          "label": "输入长度 [0, 32]",
+          "inputPrice": 3.2,
+          "outputPrice": 16,
+          "cachedInputPrice": 0.64
+        },
+        {
+          "label": "输入长度 (32, 128]",
+          "inputPrice": 4.8,
+          "outputPrice": 24,
+          "cachedInputPrice": 0.96
+        },
+        {
+          "label": "输入长度 (128, 256]",
+          "inputPrice": 9.6,
+          "outputPrice": 48,
+          "cachedInputPrice": 1.92
+        }
+      ]
+    },
+    {
+      "id": "doubao-seed-2-0-lite",
+      "name": "Doubao Seed 2.0 Lite",
+      "provider": "doubao",
+      "billingCurrency": "CNY",
+      "pricingTiers": [
+        {
+          "label": "输入长度 [0, 32]",
+          "inputPrice": 0.6,
+          "outputPrice": 3.6,
+          "cachedInputPrice": 0.12
+        },
+        {
+          "label": "输入长度 (32, 128]",
+          "inputPrice": 0.9,
+          "outputPrice": 5.4,
+          "cachedInputPrice": 0.18
+        },
+        {
+          "label": "输入长度 (128, 256]",
+          "inputPrice": 1.8,
+          "outputPrice": 10.8,
+          "cachedInputPrice": 0.36
+        }
+      ]
+    },
+    {
+      "id": "doubao-seed-2-0-mini",
+      "name": "Doubao Seed 2.0 Mini",
+      "provider": "doubao",
+      "billingCurrency": "CNY",
+      "pricingTiers": [
+        {
+          "label": "输入长度 [0, 32]",
+          "inputPrice": 0.2,
+          "outputPrice": 2,
+          "cachedInputPrice": 0.04
+        },
+        {
+          "label": "输入长度 (32, 128]",
+          "inputPrice": 0.4,
+          "outputPrice": 4,
+          "cachedInputPrice": 0.08
+        },
+        {
+          "label": "输入长度 (128, 256]",
+          "inputPrice": 0.8,
+          "outputPrice": 8,
+          "cachedInputPrice": 0.16
+        }
+      ]
+    },
+    {
+      "id": "doubao-seed-2-0-code",
+      "name": "Doubao Seed 2.0 Code",
+      "provider": "doubao",
+      "billingCurrency": "CNY",
+      "pricingTiers": [
+        {
+          "label": "输入长度 [0, 32]",
+          "inputPrice": 3.2,
+          "outputPrice": 16,
+          "cachedInputPrice": 0.64
+        },
+        {
+          "label": "输入长度 (32, 128]",
+          "inputPrice": 4.8,
+          "outputPrice": 24,
+          "cachedInputPrice": 0.96
+        },
+        {
+          "label": "输入长度 (128, 256]",
+          "inputPrice": 9.6,
+          "outputPrice": 48,
+          "cachedInputPrice": 1.92
+        }
+      ]
+    },
+    {
+      "id": "minimax-m2-5",
+      "name": "MiniMax M2.5",
+      "provider": "minimax",
+      "inputPrice": 2.1,
+      "outputPrice": 8.4,
+      "cachedInputPrice": 0.21,
+      "cachedOutputPrice": 2.625,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "minimax-m2-5-highspeed",
+      "name": "MiniMax M2.5 Highspeed",
+      "provider": "minimax",
+      "inputPrice": 4.2,
+      "outputPrice": 16.8,
+      "cachedInputPrice": 0.21,
+      "cachedOutputPrice": 2.625,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "minimax-m2-1",
+      "name": "MiniMax M2.1",
+      "provider": "minimax",
+      "inputPrice": 2.1,
+      "outputPrice": 8.4,
+      "cachedInputPrice": 0.21,
+      "cachedOutputPrice": 2.625,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "minimax-m2-1-highspeed",
+      "name": "MiniMax M2.1 Highspeed",
+      "provider": "minimax",
+      "inputPrice": 4.2,
+      "outputPrice": 16.8,
+      "cachedInputPrice": 0.21,
+      "cachedOutputPrice": 2.625,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "minimax-m2",
+      "name": "MiniMax M2",
+      "provider": "minimax",
+      "inputPrice": 2.1,
+      "outputPrice": 8.4,
+      "cachedInputPrice": 0.21,
+      "cachedOutputPrice": 2.625,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "minimax-m2-her",
+      "name": "MiniMax M2 Her",
+      "provider": "minimax",
+      "inputPrice": 2.1,
+      "outputPrice": 8.4,
+      "billingCurrency": "CNY"
+    },
+    {
+      "id": "yi-lightning",
+      "name": "Yi Lightning",
+      "provider": "lingyiwanwu",
+      "inputPrice": 0.99,
+      "outputPrice": 0.99,
+      "billingCurrency": "CNY"
     },
     {
       "id": "kimi-k2",
